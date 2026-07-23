@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Server Test</title>
+</head>
+<body>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dark Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/thakarevedant24-ctrl" target="_blank" class="github-icon"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vedant-thakare-fullstackdev" target="_blank" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <img src="vedant.png" alt="Vedant Thakare Profile" class="profile-img placeholder-img">
+            <h1>Hi, I'm <span class="highlight">Vedant Thakare</span></h1>
+            <p>A passionate Web Developer & Designer building modern web experiences.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="resume.pdf" target="_blank" class="btn btn-outline">View Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="fade-in">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a creative developer with a passion for building beautiful and functional digital products. I specialize in HTML, CSS, JavaScript, and modern frameworks.</p>
+                    <p>When I'm not coding, you can find me exploring the outdoors or reading a good book.</p>
+                </div>
+                <div class="skills">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">python</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="fade-in">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-img placeholder">Project 1 Image</div>
+                    <div class="project-info">
+                        <h3>E-Commerce App</h3>
+                        <p>A full-stack e-commerce platform built with Node.js and React.</p>
+                        <a href="YOUR_PROJECT_DEMO_URL" target="_blank" class="btn-small">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder">Project 2 Image</div>
+                    <div class="project-info">
+                        <h3>Calculator</h3>
+                        <p>Responsive calculator built with HTML, CSS, and JavaScript for performing basic arithmetic operations.</p>
+                        <a href="YOUR_PROJECT_DEMO_URL" target="_blank" class="btn-small">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="fade-in">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vedant Thakare. Built with <i class="fas fa-heart highlight"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
