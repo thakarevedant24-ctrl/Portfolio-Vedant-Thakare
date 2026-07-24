@@ -59,7 +59,7 @@ faders.forEach(fader => {
 // Simple Form Submission Handler
 const form = document.getElementById('contact-form');
 if(form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', function(e) {
         e.preventDefault();
         const name = document.getElementById('name').value;
         alert(`Thanks for reaching out, ${name}! Your message has been sent. (This is a demo alert)`);
